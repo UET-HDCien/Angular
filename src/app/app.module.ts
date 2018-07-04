@@ -7,7 +7,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { AaaComponent } from './aaa/aaa.component';
 
 const appRoutes: Routes = [
-  { path: 'abcd', component: ProfileComponent }];
+  { path: 'abcd', component: ProfileComponent },
+  { path: 'abc', component:AaaComponent}];
+
 
 @NgModule({
 	declarations: [
